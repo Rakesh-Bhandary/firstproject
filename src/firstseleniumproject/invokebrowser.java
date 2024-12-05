@@ -10,8 +10,7 @@ public class invokebrowser {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.verizon.com/");
 		System.out.println(driver.getTitle());
+		driver.getCurrentUrl();
 		driver.close();
-
 	}
-
 }
